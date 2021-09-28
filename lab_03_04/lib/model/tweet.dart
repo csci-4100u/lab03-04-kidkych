@@ -9,7 +9,10 @@ class DataSource {
   static List<Tweet> generateTweets() {
     return [
       Tweet(
-          author: 'Chirag Karia', imageURL: 'https://i.imgur.com/0A7Matp.jpeg')
+          author: 'Chirag Karia', imageURL: 'https://i.imgur.com/0A7Matp.jpeg'),
+      Tweet(
+          author: 'Not Chirag Karia',
+          imageURL: 'https://i.imgur.com/0A7Matp.jpeg')
     ];
   }
 }
